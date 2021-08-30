@@ -23,4 +23,5 @@ while True:
         continue
     else:
         r_image = frcnn.detect_image(image)
+        r_image.save('result.jpg')
         r_image.show()
